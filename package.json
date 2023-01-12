@@ -5,7 +5,13 @@
     "main": "index.json",
     "license": "MIT",
     "author": "Jakub Nowakowski <kuba@boar.network>",
+    "scripts": {
+        "test": "prettier --config index.json --check ."
+    },
     "peerDependencies": {
         "prettier": "^2.8.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.2"
     }
 }
