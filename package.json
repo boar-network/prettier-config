@@ -6,7 +6,9 @@
     "license": "MIT",
     "author": "Jakub Nowakowski <kuba@boar.network>",
     "scripts": {
-        "test": "prettier --config index.json --check ."
+        "test": "prettier --config index.json --check .",
+        "format": "prettier --config index.json --check .",
+        "format:fix": "prettier --config index.json --write ."
     },
     "peerDependencies": {
         "prettier": "^2.8.0"
