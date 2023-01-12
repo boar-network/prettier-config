@@ -1,0 +1,11 @@
+{
+    "name": "@boar-network/prettier-config",
+    "version": "0.0.1",
+    "description": "Prettier configuration",
+    "main": "index.json",
+    "license": "MIT",
+    "author": "Jakub Nowakowski <kuba@boar.network>",
+    "peerDependencies": {
+        "prettier": "^2.8.0"
+    }
+}
